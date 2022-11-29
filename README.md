@@ -1,6 +1,15 @@
                                                          PROYECTO-PARCIAL-1
  
- 1. OBJETIVOS 
+ INTEGRANTES:
+ 
+ Danny Guallpa
+ 
+ Joshua Rivera 
+ 
+ Juan Salazar 
+
+
+1. OBJETIVOS 
 
 - Generales: 
 
