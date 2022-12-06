@@ -31,21 +31,27 @@
 
 MARCO TEORICO:
 
-![204460369-ceb67096-7865-44d2-b596-e3cffe9ab52b](https://user-images.githubusercontent.com/117873786/204559947-93e2738d-71cd-42d5-a9ad-dfcc64223787.png)
+Detector de luz transistorizado
 
+Este circuito detector de luz transistorizado permite activar un dispositivo de iluminación u otro, por medio de un relé cuando la intensidad de la luz del día ya no es suficiente.
+
+Funcionamiento del detector de Luz transistorizado
+
+El elemento sensor de la intensidad de luz es un LDR (fotorresistencia) cuya resistencia depende de la intensidad de luz que lo incide. A mayor cantidad de luz, menor resistencia en el LDR y viceversa. Para ajustar el nivel de luz, con el cual el relé se debe activar para conectar la iluminación artificial, se utiliza el potenciómetro P.
+
+![image](https://user-images.githubusercontent.com/117873786/205939051-ccd3bb44-cfd2-4908-9113-df6b78a76016.png)
+
+Cómo Construir
+
+Primero, conecte el terminal de contacto del potenciómetro de 10 KΩ al terminal inversor del amplificador operacional. Luego, cree una unión de conexión entre el LDR y la resistencia de 10 KΩ. Como resultado, creará un divisor potencial que alimenta la salida al amplificador operacional.
+
+Además, cree una conexión entre el LED blanco y la resistencia de 220 Ω. Luego, conecta tu fuente de alimentación de 9v al circuito y prueba para ver si funciona.
+
+Cuando iluminas un poco el LDR, debería disminuir su resistencia. Y el voltaje inversor será más alto que el voltaje no inversor, lo que mantiene el LED apagado.
+
+Si no hay luz incidente en el LDR, tendría una mayor resistencia. Como resultado, el voltaje inversor será más bajo que el voltaje no inversor. Por lo tanto, la salida del OP-Amp aumentará y encenderá el LED.
 
 PROCEDIMIETO:
-
-Simulacion de circuito:
-
-![204463465-89f5d8c1-7327-430b-9727-07e01b25084f](https://user-images.githubusercontent.com/117873786/204558903-9acde561-577c-4ed4-8fa7-d672b4410a32.png)
-
-
-Armado del circuto:
-
-![204410604-86ffca64-0357-4821-a711-958c7ed09995](https://user-images.githubusercontent.com/117873786/204559223-53f2b50e-1197-4ef6-8a34-7b443f265293.png)
-
-![204411037-4b16aa3a-085e-4ca6-a2b9-f6f36d8e688b](https://user-images.githubusercontent.com/117873786/204559413-351948ea-2b72-4d66-9e92-721d87469657.png)
 
 
 1. Materiales: 
@@ -85,10 +91,26 @@ Armado del circuto:
 - Notamos que al obstruir la fotocelda los leds se encenderán, mientras tanto permanecerán apagados.
 
 
+Simulacion de circuito:
+
+![204463465-89f5d8c1-7327-430b-9727-07e01b25084f](https://user-images.githubusercontent.com/117873786/204558903-9acde561-577c-4ed4-8fa7-d672b4410a32.png)
+
+
+Armado del circuto:
+
+![d62c1eae-7cab-4026-87b1-33a1e4b733a0](https://user-images.githubusercontent.com/117873786/205934623-31607c1c-10e7-4c31-87fe-cb869393f868.jpg)
+
+![d8100874-d296-4060-ad6e-5ea72d4ea186](https://user-images.githubusercontent.com/117873786/205934697-d95ff903-8385-4854-9c44-cc0f5e63c3ec.jpg)
+
+![d49585ec-6809-4c22-8a6c-f8567ad7126f](https://user-images.githubusercontent.com/117873786/205934721-9e9b9e46-0fa3-4aba-8db0-ca948310b3cc.jpg)
+
+
+
+
 4. VIDEO
 
 
-
+https://uespe-my.sharepoint.com/:v:/g/personal/dxguallpa_espe_edu_ec/EQQUU0D492JOnEp9sk6PUj4Bk5j2lgCy5aXQR8LhtV2LqQ?e=PR712o
 
 5. CONCLUSIONES
 
@@ -103,17 +125,9 @@ Armado del circuto:
 6. BIBLIOGRAFÍA
 
 
- TOMÁS, F. (2007). Principios de circuitos eléctricos.Octava edición.
+Circuitos de detección de luz:una manera fácil de detectar la luz. (n.d.). Mfgrobots.com. Retrieved December 6, 2022, from http://es.mfgrobots.com/mfg/it/1003029802.html
 
-2N3904 Transistor. (s. f.). UNIT Electronics. https://uelectronics.com/producto/2n3904-transistor-bjt-npn-40v-to-92/
-
-Latam, M. (2021, 23 abril). Fotoresistor, LDR o Fotoresistencia. Mecatrónica LATAM. https://www.mecatronicalatam.com/es/tutoriales/sensores/sensor-de-luz/ldr/
-
-Mecafenix, I. (2022, 8 noviembre). Potenciómetro ¿Qué es y como funciona? Ingeniería Mecafenix. https://www.ingmecafenix.com/electronica/potenciometro/
-
-Transistor Switching Circuit: Examples of How Transistor Acts as a Switch. (s. f.). https://circuitdigest.com/electronic-circuits/npn-and-pnp-transistor-switching-circuit-diagram
-
-
+Detector de luz transistorizado - Electrónica Unicrom. (2018, March 28). Electrónica Unicrom. https://unicrom.com/detector-de-luz-transistorizado/
 
 
 
