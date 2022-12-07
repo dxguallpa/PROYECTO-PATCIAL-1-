@@ -9,39 +9,42 @@
  Juan Salazar 
 
 
-1. OBJETIVOS 
+# OBJETIVOS 
 
-- Generales: 
+1. Generales: 
 
- - Simular y poner a prueba los distintos casos que se pueden dar con el fin de encender una led.
+- Diseñar un circuito cuya función es encender un led de forma automática al detectar oscuridad, para posteriormente analizar su funcionamiento y el rol que desempeña cada uno de sus componentes aplicando la ingeniería inversa. 
+
  
- - Aplicar conceptos previos a la realización del proyecto, con el uso de definiciones ya conocidas.
- 
- - Aprender sobre los componentes electronicos que estamos manupulando.
 
-- Especificos: 
+2. Especificos: 
 
 - Aplicar los conceptos aprendidos como circuitos en serie y paralelo.
 
-- Analizar el volatje junto al potenciometro en funcion al efecto que tiene en los leds.
+- Analizar el volataje junto al potenciometro en funcion al efecto que tiene en los leds.
 
 - Localizar fallas en circuitos.
 
-- Aplicar lo aprendido en los laboratorios y el cimulador.
+- Aplicar lo aprendido en los laboratorios y el simulador.
 
-MARCO TEORICO:
+- Aprender sobre los componentes electronicos que estamos manupulando.
 
-Detector de luz transistorizado
+# MARCO TEORICO:
+
+![WhatsApp Image 2022-12-06 at 9 41 53 PM](https://user-images.githubusercontent.com/117873786/206075382-af2f622c-8cca-46c5-84db-12b01b03bacc.jpeg)
+
+
+- Detector de luz transistorizado
 
 Este circuito detector de luz transistorizado permite activar un dispositivo de iluminación u otro, por medio de un relé cuando la intensidad de la luz del día ya no es suficiente.
 
-Funcionamiento del detector de Luz transistorizado
+- Funcionamiento del detector de Luz transistorizado
 
 El elemento sensor de la intensidad de luz es un LDR (fotorresistencia) cuya resistencia depende de la intensidad de luz que lo incide. A mayor cantidad de luz, menor resistencia en el LDR y viceversa. Para ajustar el nivel de luz, con el cual el relé se debe activar para conectar la iluminación artificial, se utiliza el potenciómetro P.
 
 ![image](https://user-images.githubusercontent.com/117873786/205939051-ccd3bb44-cfd2-4908-9113-df6b78a76016.png)
 
-Cómo Construir
+- Cómo Construir
 
 Primero, conecte el terminal de contacto del potenciómetro de 10 KΩ al terminal inversor del amplificador operacional. Luego, cree una unión de conexión entre el LDR y la resistencia de 10 KΩ. Como resultado, creará un divisor potencial que alimenta la salida al amplificador operacional.
 
@@ -51,7 +54,9 @@ Cuando iluminas un poco el LDR, debería disminuir su resistencia. Y el voltaje 
 
 Si no hay luz incidente en el LDR, tendría una mayor resistencia. Como resultado, el voltaje inversor será más bajo que el voltaje no inversor. Por lo tanto, la salida del OP-Amp aumentará y encenderá el LED.
 
-PROCEDIMIETO:
+# PROCEDIMIETO:
+
+![image](https://user-images.githubusercontent.com/117873786/206075975-d7755404-8c27-4a4b-a46f-0dddf69aa9b8.png)
 
 
 1. Materiales: 
@@ -107,22 +112,22 @@ Armado del circuto:
 
 
 
-4. VIDEO
+# VIDEO
+
+https://drive.google.com/file/d/17PIIwkht7OaWUdB3OH_ECoFeIqz3lGOA/view?usp=share_link
+
+# CONCLUSIONES
 
 
-https://uespe-my.sharepoint.com/:v:/g/personal/dxguallpa_espe_edu_ec/EQQUU0D492JOnEp9sk6PUj4Bk5j2lgCy5aXQR8LhtV2LqQ?e=PR712o
+• En un circuito se pueden encontrar que muchos componentes estan en en serie y en paralelo, junto a lo aprendido anteriormente ya sabemos como pasamos de una simulacion a un circuito real.
 
-5. CONCLUSIONES
+• Los componentes de dicho circuitos como el trancistor y el fotoresistor dan una noción de ideas que podemos aplicar en diversos aspectos.
 
+• Cuando la luz del día ilumina el fototransistor, éste conduce energía y el voltaje en su emisor se eleva lo suficiente para que el nivel de voltaje en la base del transistor cause que éste no conduzca.
 
-• En un circuito se pueden encontrar que muchos componentes estan en en serie y en paralelo, junto a lo aprendido amteriormente ya sabemos como pasamos de una simulacion a un circuito real.
+- Al llegar la noche, el fototransistor deja de conducir energía y el voltaje que aparece en su emisor disminuye.
 
-• Los componentes de dicho circuitos como el trancistor y el fotoresistor dan una nocion de ideas que podemos aplicar en diversos aspectos.
-
-• Hay muchas formas de armar el circuito, no especificamente como en el video, entonces buscamos una forma de que funcione pues hubo dificultades.
-
-
-6. BIBLIOGRAFÍA
+# BIBLIOGRAFÍA
 
 
 Circuitos de detección de luz:una manera fácil de detectar la luz. (n.d.). Mfgrobots.com. Retrieved December 6, 2022, from http://es.mfgrobots.com/mfg/it/1003029802.html
