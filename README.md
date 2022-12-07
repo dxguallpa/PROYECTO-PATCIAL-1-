@@ -13,15 +13,12 @@
 
 1. Generales: 
 
-- Diseñar un circuito cuya función es encender un led de forma automática al detectar oscuridad, para posteriormente analizar su funcionamiento y el rol que desempeña cada uno de sus componentes aplicando la ingeniería inversa. 
+- Aplicar ingeniería inversa en un circuito prediseñado, el cual se deberá armar y analizar cada componente y funcionamiento respectivamente, además de conocer su simbología, aplicaciones y demás aspectos generales de cada uno.
 
- 
 
 2. Especificos: 
 
 - Aplicar los conceptos aprendidos como circuitos en serie y paralelo.
-
-- Analizar el volataje junto al potenciometro en funcion al efecto que tiene en los leds.
 
 - Localizar fallas en circuitos.
 
@@ -118,10 +115,10 @@ https://drive.google.com/file/d/17PIIwkht7OaWUdB3OH_ECoFeIqz3lGOA/view?usp=share
 
 # CONCLUSIONES
 
+• En el presente proyecto, se ha aplicado ingeniería inversa, aprendiendo así, acerca de nuevos componentes electrónicos, abarcando  detalladamente su respectivo funcionamiento y simbología, seguido del rol que desempeñan en el circuito mencionado.
 
 • En un circuito se pueden encontrar que muchos componentes estan en en serie y en paralelo, junto a lo aprendido anteriormente ya sabemos como pasamos de una simulacion a un circuito real.
 
-• Los componentes de dicho circuitos como el trancistor y el fotoresistor dan una noción de ideas que podemos aplicar en diversos aspectos.
 
 • Cuando la luz del día ilumina el fototransistor, éste conduce energía y el voltaje en su emisor se eleva lo suficiente para que el nivel de voltaje en la base del transistor cause que éste no conduzca.
 
